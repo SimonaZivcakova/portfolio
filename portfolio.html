@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tvorba webstranok</title>
+    <link rel="icon" href="images/ikona.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>Simona <strong>Kalinowska</strong></span>
+        </div>
+        <nav>
+            <a href="index.html" >O mne</a>
+            <a href="portfolio.html"class="active">Portfólio</a>
+            <a href="sluzby.html">Služby a cenník</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+        <div class="banner">
+            <div class="banner-kontent">
+                <p class="nadpis">SIMONA KALINOWSKA</p>
+                <h1>Tvorím weby,<br><span>ktoré majú štýl.</span></h1>
+                <p class="podnadpis">Frontend Developer &nbsp;|&nbsp; HTML &middot; CSS &middot; JavaScript</p>
+                <p class="popis">Moderné, responzívne a funkčné webstránky pre vaše nápady a projekty.</p>
+      
+                <div class="tlacidla">
+                    <a href="portfolio.html" class="btn btn-primary">Moje portfólio &rarr;</a>
+                    <a href="kontakt.html" class="btn btn-outline">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    
+    <main class="portfolio-section">
+
+        <div class="portfolio-heading">
+            <p class="nadpis">MOJA TVORBA</p>
+            <h1>Moje <span>projekty</span></h1>
+            <p>
+                Pozrite si ukážky webových stránok, ktoré som vytvorila
+                počas štúdia a vlastnej praxe.
+            </p>
+        </div>
+
+        <section class="projects">
+
+            <!-- PROJEKT 1 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/detska_kaviaren_1.png"
+                         alt="Náhľad webovej stránky Detský svet">
+                </div>
+
+                <div class="project-info">
+                    <p class="project-number">PROJEKT 01</p>
+
+                    <h2>Detský svet</h2>
+
+                    <p class="project-category">
+                        Rodinná kaviareň
+                    </p>
+
+                    <p class="project-description">
+                        Prezentačná webstránka fiktívnej rodinnej kaviarne
+                        s detským kútikom. Obsahuje informácie o kaviarni,
+                        menu, otváracích hodinách, galériu a kontaktnú
+                        stránku. Súčasťou je aj rezervačná stránka
+                        na organizovanie detských osláv.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/SimonaZivcakova/detskysvet"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-btn github-btn">
+                            GitHub →
+                        </a>
+
+                        <a href="https://simonazivcakova.github.io/detskysvet/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-btn demo-btn">
+                            Live Demo ↗
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- PROJEKT 2 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/fitko_1.png"
+                         alt="Náhľad webovej stránky BeFIT">
+                </div>
+
+                <div class="project-info">
+                    <p class="project-number">PROJEKT 02</p>
+
+                    <h2>BeFIT</h2>
+
+                    <p class="project-category">
+                        Fitness centrum
+                    </p>
+
+                    <p class="project-description">
+                        Moderná prezentačná webstránka fiktívneho
+                        fitness centra. Návštevníci tu nájdu informácie
+                        o službách, cenníku, tréneroch a galérii.
+                        Web je rozdelený do prehľadných podstránok.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/SimonaZivcakova/BeFIT"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-btn github-btn">
+                            GitHub →
+                        </a>
+
+                        <a href="https://simonazivcakova.github.io/BeFIT/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-btn demo-btn">
+                            Live Demo ↗
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+
+        <section class="portfolio-cta">
+            <h2>Máte záujem o vlastnú webstránku?</h2>
+            <p>Rada pomôžem premeniť váš nápad na funkčný web.</p>
+            <a href="kontakt.html" class="btn btn-primary">
+                Kontaktovať ma →
+            </a>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h2>Simona <span>Kalinowska</span></h2>
+                <p>Frontend Developer <br>
+                Tvorím moderné webstránky, ktoré majú štýl.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navigácia</h3>
+                <a href="index.html">O mne</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="sluzby.html">Služby a cenník</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Kontakt</h3>
+                <p>Email: simziv2000@gmail.com</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Sleduj ma</h3>
+                <a href="https://github.com/SimonaZivcakova">GitHub</a>
+                <a href="https://www.linkedin.com/in/simona-kalinowska-25736b450/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNFEZQjIcRjepzs4QIlWq0g%3D%3D">LinkedIn</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Simona Kalinowska. Všetky práva vyhradené.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
