@@ -33,6 +33,11 @@ h1,h2,h3{
     font-family: 'Anton';
 }
 
+a{
+    text-decoration: none;
+    color: #c084fc;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -698,6 +703,10 @@ footer a:hover {
     .project-image img {
         height: 280px;
     }
+
+    .contact-form{
+        max-width: 400px;
+    }
 }
 
 /* =========================================
@@ -791,5 +800,8 @@ footer a:hover {
         text-align: center;
     }
 
-}
+    .contact-form{
+        max-width: 400px;
+    }
 
+}
